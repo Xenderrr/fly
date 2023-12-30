@@ -1,0 +1,354 @@
+.navbar {
+    background: #4aadf9;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    cursor: pointer;
+    margin-left: 14vw;
+}
+
+.nav-link {
+    color: #fff;
+    cursor: pointer;
+    margin-right: 1vw;
+    border-radius: 10px;
+}
+
+.nav-link:hover {
+    background: #bae9ff;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    margin-right: 14vw;
+}
+
+.navbar-toggler {
+    background: #bae9ff !important;
+}
+
+.header {
+    margin-top: 30vh;
+    position: relative;
+    height: 100vh;
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.444);
+}
+
+.description {
+    top: 30vh;
+    padding: 30vh;
+}
+
+.description h1 {
+    color: #fff;
+    text-align: left;
+}
+
+.description p {
+    color: #bce2ff;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.description button {
+    border: 1px solid #4aadf9;
+    background: #4aadf9;
+    color: #fff;
+    float: left;
+}
+
+.about {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 14vw;
+    padding-right: 7vw;
+}
+
+.about_img {
+    margin-top: auto;
+    height: 80%;
+}
+
+.abt {
+    margin-top: 35vh;
+    text-align: right;
+    width: 50%;
+}
+
+.abt h3 {
+    color: #4aadf9;
+    font-size: 2.5rem;
+}
+
+.abt p {
+    padding-left: 2vw;
+    color: #3b7fb2;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.features {
+    height: 80vh;
+    position: relative;
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+.features h1 {
+    color: #3b7fb2;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.feat {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.f {
+    margin: auto;
+    margin-top: 10vh;
+    width: 25vh;
+    text-align: center;
+}
+
+.f h4 {
+    margin-top: 2vh;
+    color: #3b7fb2;
+}
+
+.f_img {
+    height: 20vh;
+}
+
+.portfolio {
+    margin: 4em 0;
+    position: relative;
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+.portfolio h1 {
+    color: #3b7fb2;
+    margin: 2em;
+}
+
+.portfolio img {
+    height: 15rem;
+    width: 100%;
+    margin: 1em;
+}
+
+.tours {
+    height: 105vh;
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+.tours h1 {
+    color: #4aadf9;
+}
+
+.description {
+    text-align: center;
+    color: #3b7fb2;
+    font-size: 20px;
+    height: 10%;
+    margin-top: -30vh;
+    margin-bottom: -22vh;
+}
+
+.tour {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.t {
+    margin: auto;
+    margin-top: 4vh;
+    width: 15vw;
+    text-align: center;
+}
+
+.img {
+    width: 15vw;
+}
+
+.t h4 {
+    color: #3b7fb2;
+    margin-top: 3vh;
+}
+
+.t p {
+    text-align: center;
+    color: #3b7fb2;
+}
+
+.stars {
+    width: 8vw;
+}
+
+.tours button {
+    border: 3px solid #4aadf9;
+    font-size: large;
+    background: #4aadf9;
+    color: #fff;
+    margin-top: 5vh;
+    margin-left: 45%;
+}
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.388);
+    height: 100vh;
+    width: 100vw;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 1000;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.modal:target {
+    display: flex;
+    visibility: visible;
+}
+
+.modal_content {
+    height: 92vh;
+    width: 70vw;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.box_close {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.close_modal {
+    margin-top: 2vh;
+    margin-right: 2vh;
+    height: 4vh;
+}
+
+.modal_content h3 {
+    color: #4aadf9;
+    text-align: center;
+}
+
+.box_modal_data {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box_modal_data p {
+    margin-top: 1.5vh;
+    color: #3b7fb2;
+}
+
+.box_modal_data input {
+    background-color: #bce2ff;
+    border-radius: 10px;
+    border: 1px solid #bce2ff;
+    width: 70%;
+    color: #757575;
+}
+
+.box_modal_data button {
+    margin-top: 15vh;
+    color: #fff;
+}
+
+.visa {
+    width: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.radio_button {
+    height: 3vh;
+    padding-left: 10vw;
+    margin-top: 2vh;
+}
+
+.modal_content h5 {
+    color: #3b7fb2;
+    text-align: left;
+    margin-left: 4vw;
+}
+
+.foot {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #3b7fb2;
+    height: 40vh;
+    color: rgb(255, 255, 255);
+    padding-left: 14vw;
+    padding-right: 14vw;
+}
+
+.c {
+    margin: auto;
+    text-align: center;
+}
+
+.soc {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.link {
+    height: 5vh;
+    margin: auto;
+}
+
+.l1 {
+    height: 6vh;
+    margin: auto;
+}
+
+.copy {
+    height: 10vh;
+    background-color: #316a95;
+    color: #fff;
+    text-align: center;
+    padding-top: 3vh;
+}
